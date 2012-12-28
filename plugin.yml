@@ -1,0 +1,14 @@
+name: SimpleTrash
+main: me.Hoot215.SimpleTrash.SimpleTrash
+version: 1.1
+author: Hoot215
+permissions:
+  simpletrash.trash:
+    description: "Gives access to the command '/trash'"
+    default: true
+commands:
+  trash:
+    description: "Displays a trash can"
+    permission: simpletrash.trash
+    permission-message: "§cYou don't have permission to use that command!"
+    usage: "§e/<command>"
