@@ -18,6 +18,10 @@
 
 package me.hoot215.simpletrash;
 
+import java.io.IOException;
+
+import me.hoot215.simpletrash.metrics.BukkitMetrics;
+
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -62,6 +66,15 @@ public class SimpleTrash extends JavaPlugin
     @Override
     public void onEnable ()
       {
+        try
+          {
+            new BukkitMetrics(this).start();
+          }
+        catch (IOException e)
+          {
+            e.printStackTrace();
+          }
+        
         this.getLogger().info("Is now enabled");
       }
   }
