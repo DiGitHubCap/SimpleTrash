@@ -1,6 +1,6 @@
 name: SimpleTrash
 main: me.hoot215.simpletrash.SimpleTrash
-version: 1.1
+version: 1.2
 author: Hoot215
 permissions:
   simpletrash.trash:
