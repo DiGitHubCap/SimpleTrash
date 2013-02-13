@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.Hoot215.SimpleTrash;
+package me.hoot215.simpletrash;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
