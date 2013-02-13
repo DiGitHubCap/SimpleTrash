@@ -2,6 +2,7 @@ name: SimpleTrash
 main: me.hoot215.simpletrash.SimpleTrash
 version: 1.2
 author: Hoot215
+website: 'http://dev.bukkit.org/server-mods/simpletrash/'
 permissions:
   simpletrash.trash:
     description: "Gives access to the command '/trash'"
